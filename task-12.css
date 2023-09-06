@@ -1,0 +1,68 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration-form {
+    background-color: palevioletred;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+    width: 550px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+label {
+    width: 40%;
+    text-align: left;
+    margin-right: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select,
+textarea {
+    width: 60%;
+    padding: 10px;
+    border: none;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button.register-button {
+    background-color: whitesmoke;
+    width: 400px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button.register-button:hover {
+    background-color: #45a049;
+}
